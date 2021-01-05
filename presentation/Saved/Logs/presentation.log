@@ -6677,3 +6677,798 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.01.05-05.41.49:257][614]LogPlayLevel: Display: Destroying online subsystem :Context_64
 [2021.01.05-05.41.51:879][663]LogSlate: Window 'Message Log' being destroyed
 [2021.01.05-05.41.51:935][663]LogSlate: Window 'Message Log' being destroyed
+[2021.01.05-05.42.51:250][388]LogTemp: Resetting audio stream to device id 
+[2021.01.05-05.42.51:274][388]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.05-05.42.51:274][388]LogAudioMixer: Display: 1: FrontRight
+[2021.01.05-05.57.56:917][401]LogTemp: Resetting audio stream to device id 
+[2021.01.05-05.57.57:019][401]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.05-05.57.57:019][401]LogAudioMixer: Display: 1: FrontRight
+[2021.01.05-05.57.57:093][401]LogAudioMixer: Error: XAudio2 Error: XAudio2System->CreateMasteringVoice( &OutputAudioStreamMasteringVoice, AudioStreamInfo.DeviceInfo.NumChannels, AudioStreamInfo.DeviceInfo.SampleRate, 0, nullptr, nullptr, AudioCategory_GameEffects) -> 0x80070015: The device is not ready. (line: 1179)
+[2021.01.05-05.57.58:528][401]LogUObjectHash: Compacting FUObjectHashTables data took   4.05ms
+[2021.01.05-05.57.58:614][401]LogSavePackage: Moving '../../../../../../Users/uknab/Documents/GitHub/ue_presentation/presentation/Saved/Minimal_Default_Auto3651B15514317EFE2176E859C7B08F70E.tmp' to '../../../../../../Users/uknab/Documents/GitHub/ue_presentation/presentation/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto3.umap'
+[2021.01.05-05.57.58:618][401]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.142
+[2021.01.05-05.57.58:618][401]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.142
+[2021.01.05-05.57.58:619][401]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Player] ([1] browsable assets)...
+[2021.01.05-05.57.58:619][401]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Player]
+[2021.01.05-05.57.58:702][401]LogSavePackage: Moving '../../../../../../Users/uknab/Documents/GitHub/ue_presentation/presentation/Saved/Player_Auto35134160D416F5A03AA21D49952750D17.tmp' to '../../../../../../Users/uknab/Documents/GitHub/ue_presentation/presentation/Saved/Autosaves/Game/Blueprints/Player_Auto3.uasset'
+[2021.01.05-05.57.58:703][401]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Notes] ([1] browsable assets)...
+[2021.01.05-05.57.58:734][401]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Notes.Notes]
+[2021.01.05-05.57.58:734][401]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Notes]
+[2021.01.05-05.57.58:844][401]LogSavePackage: Moving '../../../../../../Users/uknab/Documents/GitHub/ue_presentation/presentation/Saved/Notes_Auto30E6FE0F64324301BF36F0395207F70A9.tmp' to '../../../../../../Users/uknab/Documents/GitHub/ue_presentation/presentation/Saved/Autosaves/Game/Blueprints/Notes_Auto3.uasset'
+[2021.01.05-05.57.58:846][401]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/SampleUI] ([1] browsable assets)...
+[2021.01.05-05.57.58:846][401]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/SampleUI]
+[2021.01.05-05.57.58:921][401]LogSavePackage: Moving '../../../../../../Users/uknab/Documents/GitHub/ue_presentation/presentation/Saved/SampleUI_Auto3F45644984BC4C1472D80F3B822EF42DC.tmp' to '../../../../../../Users/uknab/Documents/GitHub/ue_presentation/presentation/Saved/Autosaves/Game/Blueprints/SampleUI_Auto3.uasset'
+[2021.01.05-05.57.58:923][401]LogFileHelpers: Auto-saving content packages took 0.305
+[2021.01.05-05.57.59:038][402]LogTemp: Resetting audio stream to device id 
+[2021.01.05-05.57.59:040][402]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.05-05.57.59:040][402]LogAudioMixer: Display: 1: FrontRight
+[2021.01.05-05.57.59:758][403]LogHttp: Warning: 00000209F2DAE400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF082C07E-404B-FD78-678A-EA9AC2328BD0%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=7c8205cb499a2281277ac68fc8fed516%7C03a9515c85ad4635ab1fee1e5bfc3ef1%7Cffa7ddd6-9b0b-4c3f-9574-0179ff89bb81&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.01.05-05.57.59:758][403]LogHttp: Warning: 00000209F2DAE400: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2021.01.05-05.57.59:758][403]LogHttp: Warning: 00000209F2DAE400: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x2096b057f70 [can pipeline])
+[2021.01.05-05.57.59:758][403]LogHttp: Warning: 00000209F2DAE400: libcurl info message cache 1 (Re-using existing connection! (#85) with host datarouter.ol.epicgames.com)
+[2021.01.05-05.57.59:758][403]LogHttp: Warning: 00000209F2DAE400: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.234.197.51) port 443 (#85))
+[2021.01.05-05.57.59:759][403]LogHttp: Warning: 00000209F2DAE400: libcurl info message cache 3 (We are completely uploaded and fine)
+[2021.01.05-05.57.59:759][403]LogHttp: Warning: 00000209F2DAE400: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10053)
+[2021.01.05-05.57.59:759][403]LogHttp: Warning: 00000209F2DAE400: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2021.01.05-05.57.59:759][403]LogHttp: Warning: 00000209F2DAE400: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2021.01.05-05.57.59:759][403]LogHttp: Warning: 00000209F2DAE400: libcurl info message cache 7 (Closing connection 85)
+[2021.01.05-05.57.59:759][403]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF082C07E-404B-FD78-678A-EA9AC2328BD0%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=7c8205cb499a2281277ac68fc8fed516%7C03a9515c85ad4635ab1fee1e5bfc3ef1%7Cffa7ddd6-9b0b-4c3f-9574-0179ff89bb81&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2021.01.05-05.57.59:767][403]LogTemp: Resetting audio stream to device id 
+[2021.01.05-05.57.59:894][403]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.05-05.57.59:894][403]LogAudioMixer: Display: 1: FrontRight
+[2021.01.05-05.58.00:713][412]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{a63eac7e-36c8-49e2-bd77-d803be268b00}.
+[2021.01.05-05.58.00:713][412]LogTemp: Resetting audio stream to device id 
+[2021.01.05-05.58.00:862][412]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.05-05.58.00:862][412]LogAudioMixer: Display: 1: FrontRight
+[2021.01.05-05.58.10:892][  4]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{4f7b633e-9876-4e32-bd47-70f6bbc1451e}.
+[2021.01.05-05.58.10:893][  4]LogTemp: Resetting audio stream to device id 
+[2021.01.05-05.58.10:939][  4]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.05-05.58.10:939][  4]LogAudioMixer: Display: 1: FrontRight
+[2021.01.05-06.04.05:580][257]BlueprintLog: New page: Compile Notes
+[2021.01.05-06.04.05:650][257]LogUObjectHash: Compacting FUObjectHashTables data took   3.72ms
+[2021.01.05-06.04.06:357][275]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.05-06.04.06:391][275]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.05-06.04.06:391][275]PIE: New page: PIE session: Minimal_Default (6 Jan 2021, 4:04:06 am)
+[2021.01.05-06.04.06:391][275]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2021.01.05-06.04.06:395][275]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003824s)
+[2021.01.05-06.04.06:396][275]LogAIModule: Creating AISystem for world Minimal_Default
+[2021.01.05-06.04.06:396][275]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020B04627E00), frame # 774275
+[2021.01.05-06.04.06:396][275]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020A4682B4C0), frame # 774275
+[2021.01.05-06.04.06:396][275]LogPlayLevel: PIE: World Init took: (0.001145s)
+[2021.01.05-06.04.06:396][275]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.005199s)
+[2021.01.05-06.04.06:428][275]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2021.01.05-06.04.06:428][275]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.05-06.04.06:429][275]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.05-06.04.06:429][275]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.05-06.04.06:429][275]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.05-06.04.06:429][275]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.05-06.04.06:429][275]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.05-06.04.06:429][275]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.05-06.04.06:429][275]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.05-06.04.06:429][275]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.05-06.04.06:429][275]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.05-06.04.06:432][275]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.05-06.04.06:432][275]LogAudioMixer: Display: 1: FrontRight
+[2021.01.05-06.04.06:446][275]LogAudioMixer: Display: Using Audio Device Headphones (TH-N120 Stereo)
+[2021.01.05-06.04.06:446][275]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.05-06.04.06:446][275]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.05-06.04.06:446][275]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.05-06.04.06:447][275]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.05-06.04.06:463][275]LogInit: FAudioDevice initialized.
+[2021.01.05-06.04.06:517][275]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.05-06.04.06:517][275]LogLoad: Game class is 'MyGameMode_C'
+[2021.01.05-06.04.06:521][275]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2021.01.05-17.04.06
+[2021.01.05-06.04.06:521][275]LogWorld: Bringing up level for play took: 0.003404
+[2021.01.05-06.04.06:522][275]LogOnline: OSS: Creating online subsystem instance for: :Context_65
+[2021.01.05-06.04.06:523][275]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.01.05-06.04.06:526][275]PIE: Server logged in
+[2021.01.05-06.04.06:527][275]PIE: Play in editor total start time 0.138 seconds.
+[2021.01.05-06.04.07:470][303]LogBlueprintUserMessages: [Player_2] H
+[2021.01.05-06.04.07:470][303]LogBlueprintUserMessages: [Notes_7] H
+[2021.01.05-06.04.07:570][306]LogBlueprintUserMessages: [Player_2] E
+[2021.01.05-06.04.07:570][306]LogBlueprintUserMessages: [Notes_7] He
+[2021.01.05-06.04.07:704][310]LogBlueprintUserMessages: [Player_2] L
+[2021.01.05-06.04.07:704][310]LogBlueprintUserMessages: [Notes_7] Hel
+[2021.01.05-06.04.07:837][314]LogBlueprintUserMessages: [Player_2] L
+[2021.01.05-06.04.07:837][314]LogBlueprintUserMessages: [Notes_7] Hell
+[2021.01.05-06.04.07:970][318]LogBlueprintUserMessages: [Player_2] O
+[2021.01.05-06.04.07:970][318]LogBlueprintUserMessages: [Notes_7] Hello
+[2021.01.05-06.04.08:503][334]LogBlueprintUserMessages: [Player_2] Space Bar
+[2021.01.05-06.04.08:503][334]LogBlueprintUserMessages: [Notes_7] Hello 
+[2021.01.05-06.04.08:571][336]LogBlueprintUserMessages: [Player_2] T
+[2021.01.05-06.04.08:571][336]LogBlueprintUserMessages: [Notes_7] Hello t
+[2021.01.05-06.04.08:704][340]LogBlueprintUserMessages: [Player_2] H
+[2021.01.05-06.04.08:704][340]LogBlueprintUserMessages: [Notes_7] Hello th
+[2021.01.05-06.04.08:736][341]LogBlueprintUserMessages: [Player_2] E
+[2021.01.05-06.04.08:736][341]LogBlueprintUserMessages: [Notes_7] Hello the
+[2021.01.05-06.04.08:804][343]LogBlueprintUserMessages: [Player_2] R
+[2021.01.05-06.04.08:804][343]LogBlueprintUserMessages: [Notes_7] Hello ther
+[2021.01.05-06.04.08:904][346]LogBlueprintUserMessages: [Player_2] E
+[2021.01.05-06.04.08:904][346]LogBlueprintUserMessages: [Notes_7] Hello there
+[2021.01.05-06.04.09:036][350]LogBlueprintUserMessages: [Player_2] Space Bar
+[2021.01.05-06.04.09:036][350]LogBlueprintUserMessages: [Notes_7] Hello there 
+[2021.01.05-06.04.09:170][354]LogBlueprintUserMessages: [Player_2] C
+[2021.01.05-06.04.09:171][354]LogBlueprintUserMessages: [Notes_7] Hello there c
+[2021.01.05-06.04.09:270][357]LogBlueprintUserMessages: [Player_2] L
+[2021.01.05-06.04.09:270][357]LogBlueprintUserMessages: [Notes_7] Hello there cl
+[2021.01.05-06.04.09:370][360]LogBlueprintUserMessages: [Player_2] A
+[2021.01.05-06.04.09:370][360]LogBlueprintUserMessages: [Notes_7] Hello there cla
+[2021.01.05-06.04.09:403][361]LogBlueprintUserMessages: [Player_2] S
+[2021.01.05-06.04.09:403][361]LogBlueprintUserMessages: [Notes_7] Hello there clas
+[2021.01.05-06.04.09:538][365]LogBlueprintUserMessages: [Player_2] S
+[2021.01.05-06.04.09:538][365]LogBlueprintUserMessages: [Notes_7] Hello there class
+[2021.01.05-06.04.09:737][371]LogBlueprintUserMessages: [Player_2] M
+[2021.01.05-06.04.09:737][371]LogBlueprintUserMessages: [Notes_7] Hello there classm
+[2021.01.05-06.04.09:837][374]LogBlueprintUserMessages: [Player_2] A
+[2021.01.05-06.04.09:837][374]LogBlueprintUserMessages: [Notes_7] Hello there classma
+[2021.01.05-06.04.10:037][380]LogBlueprintUserMessages: [Player_2] T
+[2021.01.05-06.04.10:037][380]LogBlueprintUserMessages: [Notes_7] Hello there classmat
+[2021.01.05-06.04.10:103][382]LogBlueprintUserMessages: [Player_2] E
+[2021.01.05-06.04.10:103][382]LogBlueprintUserMessages: [Notes_7] Hello there classmate
+[2021.01.05-06.04.10:304][388]LogBlueprintUserMessages: [Player_2] S
+[2021.01.05-06.04.10:304][388]LogBlueprintUserMessages: [Notes_7] Hello there classmates
+[2021.01.05-06.04.11:070][411]LogBlueprintUserMessages: [Player_2] T
+[2021.01.05-06.04.11:070][411]LogBlueprintUserMessages: [Notes_7] T
+[2021.01.05-06.04.11:203][415]LogBlueprintUserMessages: [Player_2] O
+[2021.01.05-06.04.11:203][415]LogBlueprintUserMessages: [Notes_7] To
+[2021.01.05-06.04.11:370][420]LogBlueprintUserMessages: [Player_2] D
+[2021.01.05-06.04.11:370][420]LogBlueprintUserMessages: [Notes_7] Tod
+[2021.01.05-06.04.11:503][424]LogBlueprintUserMessages: [Player_2] A
+[2021.01.05-06.04.11:503][424]LogBlueprintUserMessages: [Notes_7] Toda
+[2021.01.05-06.04.11:570][426]LogBlueprintUserMessages: [Player_2] Y
+[2021.01.05-06.04.11:570][426]LogBlueprintUserMessages: [Notes_7] Today
+[2021.01.05-06.04.11:803][433]LogBlueprintUserMessages: [Player_2] Space Bar
+[2021.01.05-06.04.11:803][433]LogBlueprintUserMessages: [Notes_7] Today 
+[2021.01.05-06.04.11:969][438]LogBlueprintUserMessages: [Player_2] I
+[2021.01.05-06.04.11:969][438]LogBlueprintUserMessages: [Notes_7] Today I
+[2021.01.05-06.04.12:170][444]LogBlueprintUserMessages: [Player_2] Space Bar
+[2021.01.05-06.04.12:170][444]LogBlueprintUserMessages: [Notes_7] Today I 
+[2021.01.05-06.04.12:337][449]LogBlueprintUserMessages: [Player_2] W
+[2021.01.05-06.04.12:337][449]LogBlueprintUserMessages: [Notes_7] Today I w
+[2021.01.05-06.04.12:404][451]LogBlueprintUserMessages: [Player_2] I
+[2021.01.05-06.04.12:404][451]LogBlueprintUserMessages: [Notes_7] Today I wi
+[2021.01.05-06.04.12:537][455]LogBlueprintUserMessages: [Player_2] L
+[2021.01.05-06.04.12:537][455]LogBlueprintUserMessages: [Notes_7] Today I wil
+[2021.01.05-06.04.12:636][458]LogBlueprintUserMessages: [Player_2] L
+[2021.01.05-06.04.12:637][458]LogBlueprintUserMessages: [Notes_7] Today I will
+[2021.01.05-06.04.12:737][461]LogBlueprintUserMessages: [Player_2] Space Bar
+[2021.01.05-06.04.12:737][461]LogBlueprintUserMessages: [Notes_7] Today I will 
+[2021.01.05-06.04.12:870][465]LogBlueprintUserMessages: [Player_2] B
+[2021.01.05-06.04.12:870][465]LogBlueprintUserMessages: [Notes_7] Today I will b
+[2021.01.05-06.04.12:969][468]LogBlueprintUserMessages: [Player_2] E
+[2021.01.05-06.04.12:969][468]LogBlueprintUserMessages: [Notes_7] Today I will be
+[2021.01.05-06.04.13:070][471]LogBlueprintUserMessages: [Player_2] Space Bar
+[2021.01.05-06.04.13:070][471]LogBlueprintUserMessages: [Notes_7] Today I will be 
+[2021.01.05-06.04.13:136][473]LogBlueprintUserMessages: [Player_2] T
+[2021.01.05-06.04.13:137][473]LogBlueprintUserMessages: [Notes_7] Today I will be t
+[2021.01.05-06.04.13:303][478]LogBlueprintUserMessages: [Player_2] A
+[2021.01.05-06.04.13:303][478]LogBlueprintUserMessages: [Notes_7] Today I will be ta
+[2021.01.05-06.04.13:370][480]LogBlueprintUserMessages: [Player_2] L
+[2021.01.05-06.04.13:370][480]LogBlueprintUserMessages: [Notes_7] Today I will be tal
+[2021.01.05-06.04.13:403][481]LogBlueprintUserMessages: [Player_2] K
+[2021.01.05-06.04.13:403][481]LogBlueprintUserMessages: [Notes_7] Today I will be talk
+[2021.01.05-06.04.13:604][487]LogBlueprintUserMessages: [Player_2] I
+[2021.01.05-06.04.13:604][487]LogBlueprintUserMessages: [Notes_7] Today I will be talki
+[2021.01.05-06.04.13:703][490]LogBlueprintUserMessages: [Player_2] N
+[2021.01.05-06.04.13:703][490]LogBlueprintUserMessages: [Notes_7] Today I will be talkin
+[2021.01.05-06.04.13:936][497]LogBlueprintUserMessages: [Player_2] A
+[2021.01.05-06.04.14:404][511]LogBlueprintUserMessages: [Player_2] G
+[2021.01.05-06.04.14:404][511]LogBlueprintUserMessages: [Notes_7] Today I will be talking
+[2021.01.05-06.04.14:737][521]LogBlueprintUserMessages: [Player_2] Space Bar
+[2021.01.05-06.04.14:737][521]LogBlueprintUserMessages: [Notes_7] Today I will be talking 
+[2021.01.05-06.04.14:869][525]LogBlueprintUserMessages: [Player_2] A
+[2021.01.05-06.04.14:869][525]LogBlueprintUserMessages: [Notes_7] Today I will be talking a
+[2021.01.05-06.04.14:903][526]LogBlueprintUserMessages: [Player_2] B
+[2021.01.05-06.04.14:904][526]LogBlueprintUserMessages: [Notes_7] Today I will be talking ab
+[2021.01.05-06.04.15:037][530]LogBlueprintUserMessages: [Player_2] O
+[2021.01.05-06.04.15:037][530]LogBlueprintUserMessages: [Notes_7] Today I will be talking abo
+[2021.01.05-06.04.15:137][533]LogBlueprintUserMessages: [Player_2] U
+[2021.01.05-06.04.15:137][533]LogBlueprintUserMessages: [Notes_7] Today I will be talking abou
+[2021.01.05-06.04.15:304][538]LogBlueprintUserMessages: [Player_2] T
+[2021.01.05-06.04.15:304][538]LogBlueprintUserMessages: [Notes_7] Today I will be talking about
+[2021.01.05-06.04.15:504][544]LogBlueprintUserMessages: [Player_2] Space Bar
+[2021.01.05-06.04.15:504][544]LogBlueprintUserMessages: [Notes_7] Today I will be talking about 
+[2021.01.05-06.04.15:670][549]LogBlueprintUserMessages: [Player_2] B
+[2021.01.05-06.04.16:170][564]LogBlueprintUserMessages: [Player_2] M
+[2021.01.05-06.04.16:170][564]LogBlueprintUserMessages: [Notes_7] Today I will be talking about m
+[2021.01.05-06.04.16:270][567]LogBlueprintUserMessages: [Player_2] O
+[2021.01.05-06.04.16:271][567]LogBlueprintUserMessages: [Notes_7] Today I will be talking about mo
+[2021.01.05-06.04.16:369][570]LogBlueprintUserMessages: [Player_2] T
+[2021.01.05-06.04.16:369][570]LogBlueprintUserMessages: [Notes_7] Today I will be talking about mot
+[2021.01.05-06.04.16:536][575]LogBlueprintUserMessages: [Player_2] H
+[2021.01.05-06.04.16:536][575]LogBlueprintUserMessages: [Notes_7] Today I will be talking about moth
+[2021.01.05-06.04.16:637][578]LogBlueprintUserMessages: [Player_2] S
+[2021.01.05-06.04.16:637][578]LogBlueprintUserMessages: [Notes_7] Today I will be talking about moths
+[2021.01.05-06.04.17:336][599]LogBlueprintUserMessages: [Player_2] A
+[2021.01.05-06.04.17:336][599]LogBlueprintUserMessages: [Notes_7] a
+[2021.01.05-06.04.17:436][602]LogBlueprintUserMessages: [Player_2] N
+[2021.01.05-06.04.17:436][602]LogBlueprintUserMessages: [Notes_7] an
+[2021.01.05-06.04.17:503][604]LogBlueprintUserMessages: [Player_2] D
+[2021.01.05-06.04.17:503][604]LogBlueprintUserMessages: [Notes_7] and
+[2021.01.05-06.04.17:636][608]LogBlueprintUserMessages: [Player_2] Space Bar
+[2021.01.05-06.04.17:636][608]LogBlueprintUserMessages: [Notes_7] and 
+[2021.01.05-06.04.17:704][610]LogBlueprintUserMessages: [Player_2] T
+[2021.01.05-06.04.17:704][610]LogBlueprintUserMessages: [Notes_7] and t
+[2021.01.05-06.04.17:770][612]LogBlueprintUserMessages: [Player_2] H
+[2021.01.05-06.04.17:770][612]LogBlueprintUserMessages: [Notes_7] and th
+[2021.01.05-06.04.17:903][616]LogBlueprintUserMessages: [Player_2] E
+[2021.01.05-06.04.17:903][616]LogBlueprintUserMessages: [Notes_7] and the
+[2021.01.05-06.04.18:003][619]LogBlueprintUserMessages: [Player_2] I
+[2021.01.05-06.04.18:003][619]LogBlueprintUserMessages: [Notes_7] and thei
+[2021.01.05-06.04.18:137][623]LogBlueprintUserMessages: [Player_2] R
+[2021.01.05-06.04.18:137][623]LogBlueprintUserMessages: [Notes_7] and their
+[2021.01.05-06.04.18:336][629]LogBlueprintUserMessages: [Player_2] Space Bar
+[2021.01.05-06.04.18:336][629]LogBlueprintUserMessages: [Notes_7] and their 
+[2021.01.05-06.04.18:436][632]LogBlueprintUserMessages: [Player_2] A
+[2021.01.05-06.04.18:436][632]LogBlueprintUserMessages: [Notes_7] and their a
+[2021.01.05-06.04.18:670][639]LogBlueprintUserMessages: [Player_2] T
+[2021.01.05-06.04.18:670][639]LogBlueprintUserMessages: [Notes_7] and their at
+[2021.01.05-06.04.18:803][643]LogBlueprintUserMessages: [Player_2] T
+[2021.01.05-06.04.18:803][643]LogBlueprintUserMessages: [Notes_7] and their att
+[2021.01.05-06.04.19:270][657]LogBlueprintUserMessages: [Player_2] R
+[2021.01.05-06.04.19:270][657]LogBlueprintUserMessages: [Notes_7] and their attr
+[2021.01.05-06.04.19:469][663]LogBlueprintUserMessages: [Player_2] A
+[2021.01.05-06.04.19:470][663]LogBlueprintUserMessages: [Notes_7] and their attra
+[2021.01.05-06.04.19:669][669]LogBlueprintUserMessages: [Player_2] C
+[2021.01.05-06.04.19:669][669]LogBlueprintUserMessages: [Notes_7] and their attrac
+[2021.01.05-06.04.19:903][676]LogBlueprintUserMessages: [Player_2] T
+[2021.01.05-06.04.19:904][676]LogBlueprintUserMessages: [Notes_7] and their attract
+[2021.01.05-06.04.20:003][679]LogBlueprintUserMessages: [Player_2] I
+[2021.01.05-06.04.20:003][679]LogBlueprintUserMessages: [Notes_7] and their attracti
+[2021.01.05-06.04.20:069][681]LogBlueprintUserMessages: [Player_2] O
+[2021.01.05-06.04.20:069][681]LogBlueprintUserMessages: [Notes_7] and their attractio
+[2021.01.05-06.04.20:169][684]LogBlueprintUserMessages: [Player_2] N
+[2021.01.05-06.04.20:169][684]LogBlueprintUserMessages: [Notes_7] and their attraction
+[2021.01.05-06.04.20:303][688]LogBlueprintUserMessages: [Player_2] T
+[2021.01.05-06.04.20:469][693]LogBlueprintUserMessages: [Player_2] O
+[2021.01.05-06.04.20:670][699]LogBlueprintUserMessages: [Player_2] L
+[2021.01.05-06.04.21:003][709]LogBlueprintUserMessages: [Player_2] Space Bar
+[2021.01.05-06.04.21:003][709]LogBlueprintUserMessages: [Notes_7] and their attraction 
+[2021.01.05-06.04.21:436][722]LogBlueprintUserMessages: [Player_2] T
+[2021.01.05-06.04.21:436][722]LogBlueprintUserMessages: [Notes_7] and their attraction t
+[2021.01.05-06.04.21:536][725]LogBlueprintUserMessages: [Player_2] O
+[2021.01.05-06.04.21:536][725]LogBlueprintUserMessages: [Notes_7] and their attraction to
+[2021.01.05-06.04.21:769][732]LogBlueprintUserMessages: [Player_2] Space Bar
+[2021.01.05-06.04.21:769][732]LogBlueprintUserMessages: [Notes_7] and their attraction to 
+[2021.01.05-06.04.21:869][735]LogBlueprintUserMessages: [Player_2] L
+[2021.01.05-06.04.21:870][735]LogBlueprintUserMessages: [Notes_7] and their attraction to l
+[2021.01.05-06.04.22:002][739]LogBlueprintUserMessages: [Player_2] I
+[2021.01.05-06.04.22:002][739]LogBlueprintUserMessages: [Notes_7] and their attraction to li
+[2021.01.05-06.04.22:136][743]LogBlueprintUserMessages: [Player_2] G
+[2021.01.05-06.04.22:136][743]LogBlueprintUserMessages: [Notes_7] and their attraction to lig
+[2021.01.05-06.04.22:236][746]LogBlueprintUserMessages: [Player_2] H
+[2021.01.05-06.04.22:236][746]LogBlueprintUserMessages: [Notes_7] and their attraction to ligh
+[2021.01.05-06.04.22:337][749]LogBlueprintUserMessages: [Player_2] T
+[2021.01.05-06.04.22:337][749]LogBlueprintUserMessages: [Notes_7] and their attraction to light
+[2021.01.05-06.04.22:337][749]LogScript: Warning: Attempted to access index 3 from array sentencesArray of length 3!
+	Notes_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Notes_7
+	Function /Game/Blueprints/Notes.Notes_C:SetCurrentSentence:0028
+[2021.01.05-06.04.22:337][749]PIE: Error: Blueprint Runtime Error: "Attempted to access index 3 from array sentencesArray of length 3!". Blueprint:  Notes Function:  Set Current Sentence Graph:  SetCurrentSentence Node:  Set currentSentence
+[2021.01.05-06.04.22:342][749]PIE: Error: Blueprint Runtime Error: "Attempted to access index 3 from array sentencesArray of length 3!". Blueprint:  SampleUI Function:  Get Sentence from Note Graph:  GetSentenceFromNote Node:  Return Node
+[2021.01.05-06.04.22:375][750]PIE: Error: Blueprint Runtime Error: "Attempted to access index 3 from array sentencesArray of length 3!". Blueprint:  SampleUI Function:  Get Sentence from Note Graph:  GetSentenceFromNote Node:  Return Node
+[2021.01.05-06.04.22:408][751]PIE: Error: Blueprint Runtime Error: "Attempted to access index 3 from array sentencesArray of length 3!". Blueprint:  SampleUI Function:  Get Sentence from Note Graph:  GetSentenceFromNote Node:  Return Node
+[2021.01.05-06.04.22:441][752]PIE: Error: Blueprint Runtime Error: "Attempted to access index 3 from array sentencesArray of length 3!". Blueprint:  SampleUI Function:  Get Sentence from Note Graph:  GetSentenceFromNote Node:  Return Node
+[2021.01.05-06.04.22:474][753]PIE: Error: Blueprint Runtime Error: "Attempted to access index 3 from array sentencesArray of length 3!". Blueprint:  SampleUI Function:  Get Sentence from Note Graph:  GetSentenceFromNote Node:  Return Node
+[2021.01.05-06.04.22:507][754]PIE: Error: Blueprint Runtime Error: "Attempted to access index 3 from array sentencesArray of length 3!". Blueprint:  SampleUI Function:  Get Sentence from Note Graph:  GetSentenceFromNote Node:  Return Node
+[2021.01.05-06.04.22:541][755]PIE: Error: Blueprint Runtime Error: "Attempted to access index 3 from array sentencesArray of length 3!". Blueprint:  SampleUI Function:  Get Sentence from Note Graph:  GetSentenceFromNote Node:  Return Node
+[2021.01.05-06.04.22:574][756]PIE: Error: Blueprint Runtime Error: "Attempted to access index 3 from array sentencesArray of length 3!". Blueprint:  SampleUI Function:  Get Sentence from Note Graph:  GetSentenceFromNote Node:  Return Node
+[2021.01.05-06.04.22:607][757]PIE: Error: Blueprint Runtime Error: "Attempted to access index 3 from array sentencesArray of length 3!". Blueprint:  SampleUI Function:  Get Sentence from Note Graph:  GetSentenceFromNote Node:  Return Node
+[2021.01.05-06.04.22:640][758]PIE: Error: Blueprint Runtime Error: "Attempted to access index 3 from array sentencesArray of length 3!". Blueprint:  SampleUI Function:  Get Sentence from Note Graph:  GetSentenceFromNote Node:  Return Node
+[2021.01.05-06.04.22:673][759]PIE: Error: Blueprint Runtime Error: "Attempted to access index 3 from array sentencesArray of length 3!". Blueprint:  SampleUI Function:  Get Sentence from Note Graph:  GetSentenceFromNote Node:  Return Node
+[2021.01.05-06.04.22:707][760]PIE: Error: Blueprint Runtime Error: "Attempted to access index 3 from array sentencesArray of length 3!". Blueprint:  SampleUI Function:  Get Sentence from Note Graph:  GetSentenceFromNote Node:  Return Node
+[2021.01.05-06.04.22:740][761]PIE: Error: Blueprint Runtime Error: "Attempted to access index 3 from array sentencesArray of length 3!". Blueprint:  SampleUI Function:  Get Sentence from Note Graph:  GetSentenceFromNote Node:  Return Node
+[2021.01.05-06.04.22:773][762]PIE: Error: Blueprint Runtime Error: "Attempted to access index 3 from array sentencesArray of length 3!". Blueprint:  SampleUI Function:  Get Sentence from Note Graph:  GetSentenceFromNote Node:  Return Node
+[2021.01.05-06.04.22:807][763]PIE: Error: Blueprint Runtime Error: "Attempted to access index 3 from array sentencesArray of length 3!". Blueprint:  SampleUI Function:  Get Sentence from Note Graph:  GetSentenceFromNote Node:  Return Node
+[2021.01.05-06.04.22:840][764]PIE: Error: Blueprint Runtime Error: "Attempted to access index 3 from array sentencesArray of length 3!". Blueprint:  SampleUI Function:  Get Sentence from Note Graph:  GetSentenceFromNote Node:  Return Node
+[2021.01.05-06.04.22:874][765]PIE: Error: Blueprint Runtime Error: "Attempted to access index 3 from array sentencesArray of length 3!". Blueprint:  SampleUI Function:  Get Sentence from Note Graph:  GetSentenceFromNote Node:  Return Node
+[2021.01.05-06.04.22:907][766]PIE: Error: Blueprint Runtime Error: "Attempted to access index 3 from array sentencesArray of length 3!". Blueprint:  SampleUI Function:  Get Sentence from Note Graph:  GetSentenceFromNote Node:  Return Node
+[2021.01.05-06.04.22:940][767]PIE: Error: Blueprint Runtime Error: "Attempted to access index 3 from array sentencesArray of length 3!". Blueprint:  SampleUI Function:  Get Sentence from Note Graph:  GetSentenceFromNote Node:  Return Node
+[2021.01.05-06.04.23:004][768]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.05-06.04.23:004][768]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2021.01.05-06.04.23:005][768]LogSlate: Window 'presentation Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.01.05-06.04.23:011][768]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2021.01.05-06.04.23:011][768]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.05-06.04.23:016][768]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.05-06.04.23:021][768]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.05-06.04.23:074][768]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020A4682B4C0), frame # 774768
+[2021.01.05-06.04.23:074][768]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020B04627E00), frame # 774768
+[2021.01.05-06.04.23:076][768]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2021.01.05-06.04.23:258][769]LogPlayLevel: Display: Destroying online subsystem :Context_65
+[2021.01.05-06.04.24:908][802]LogSlate: Window 'Message Log' being destroyed
+[2021.01.05-06.04.24:966][802]LogSlate: Window 'Message Log' being destroyed
+[2021.01.05-06.05.30:256][898]BlueprintLog: New page: Compile Notes
+[2021.01.05-06.05.30:325][898]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2021.01.05-06.05.31:040][924]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.05-06.05.31:064][924]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.05-06.05.31:064][924]PIE: New page: PIE session: Minimal_Default (6 Jan 2021, 4:05:31 am)
+[2021.01.05-06.05.31:064][924]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2021.01.05-06.05.31:068][924]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003744s)
+[2021.01.05-06.05.31:069][924]LogAIModule: Creating AISystem for world Minimal_Default
+[2021.01.05-06.05.31:069][924]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020B15C5BE00), frame # 777924
+[2021.01.05-06.05.31:069][924]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020A93BC8180), frame # 777924
+[2021.01.05-06.05.31:069][924]LogPlayLevel: PIE: World Init took: (0.001164s)
+[2021.01.05-06.05.31:069][924]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.005012s)
+[2021.01.05-06.05.31:102][924]LogUObjectHash: Compacting FUObjectHashTables data took   3.32ms
+[2021.01.05-06.05.31:103][924]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.05-06.05.31:103][924]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.05-06.05.31:103][924]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.05-06.05.31:103][924]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.05-06.05.31:103][924]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.05-06.05.31:103][924]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.05-06.05.31:103][924]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.05-06.05.31:103][924]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.05-06.05.31:104][924]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.05-06.05.31:104][924]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.05-06.05.31:106][924]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.05-06.05.31:106][924]LogAudioMixer: Display: 1: FrontRight
+[2021.01.05-06.05.31:121][924]LogAudioMixer: Display: Using Audio Device Headphones (TH-N120 Stereo)
+[2021.01.05-06.05.31:121][924]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.05-06.05.31:121][924]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.05-06.05.31:121][924]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.05-06.05.31:121][924]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.05-06.05.31:137][924]LogInit: FAudioDevice initialized.
+[2021.01.05-06.05.31:184][924]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.05-06.05.31:184][924]LogLoad: Game class is 'MyGameMode_C'
+[2021.01.05-06.05.31:188][924]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2021.01.05-17.05.31
+[2021.01.05-06.05.31:188][924]LogWorld: Bringing up level for play took: 0.003563
+[2021.01.05-06.05.31:189][924]LogOnline: OSS: Creating online subsystem instance for: :Context_66
+[2021.01.05-06.05.31:191][924]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.01.05-06.05.31:194][924]PIE: Server logged in
+[2021.01.05-06.05.31:195][924]PIE: Play in editor total start time 0.132 seconds.
+[2021.01.05-06.05.32:503][962]LogBlueprintUserMessages: [Player_2] H
+[2021.01.05-06.05.32:636][966]LogBlueprintUserMessages: [Player_2] E
+[2021.01.05-06.05.32:736][969]LogBlueprintUserMessages: [Player_2] L
+[2021.01.05-06.05.32:869][973]LogBlueprintUserMessages: [Player_2] L
+[2021.01.05-06.05.32:969][976]LogBlueprintUserMessages: [Player_2] O
+[2021.01.05-06.05.33:303][986]LogBlueprintUserMessages: [Player_2] Space Bar
+[2021.01.05-06.05.33:403][989]LogBlueprintUserMessages: [Player_2] T
+[2021.01.05-06.05.33:504][992]LogBlueprintUserMessages: [Player_2] H
+[2021.01.05-06.05.33:569][994]LogBlueprintUserMessages: [Player_2] E
+[2021.01.05-06.05.33:635][996]LogBlueprintUserMessages: [Player_2] R
+[2021.01.05-06.05.33:736][999]LogBlueprintUserMessages: [Player_2] E
+[2021.01.05-06.05.33:870][  3]LogBlueprintUserMessages: [Player_2] Space Bar
+[2021.01.05-06.05.34:002][  7]LogBlueprintUserMessages: [Player_2] C
+[2021.01.05-06.05.34:102][ 10]LogBlueprintUserMessages: [Player_2] L
+[2021.01.05-06.05.34:169][ 12]LogBlueprintUserMessages: [Player_2] A
+[2021.01.05-06.05.34:236][ 14]LogBlueprintUserMessages: [Player_2] S
+[2021.01.05-06.05.34:370][ 18]LogBlueprintUserMessages: [Player_2] S
+[2021.01.05-06.05.34:538][ 23]LogBlueprintUserMessages: [Player_2] M
+[2021.01.05-06.05.34:603][ 25]LogBlueprintUserMessages: [Player_2] A
+[2021.01.05-06.05.34:802][ 31]LogBlueprintUserMessages: [Player_2] T
+[2021.01.05-06.05.34:836][ 32]LogBlueprintUserMessages: [Player_2] E
+[2021.01.05-06.05.35:070][ 39]LogBlueprintUserMessages: [Player_2] S
+[2021.01.05-06.05.35:704][ 57]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.05-06.05.35:704][ 57]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2021.01.05-06.05.35:705][ 57]LogSlate: Window 'presentation Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.01.05-06.05.35:712][ 57]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2021.01.05-06.05.35:712][ 57]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.05-06.05.35:720][ 57]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.05-06.05.35:726][ 57]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.05-06.05.35:777][ 57]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020A93BC8180), frame # 778057
+[2021.01.05-06.05.35:777][ 57]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020B15C5BE00), frame # 778057
+[2021.01.05-06.05.35:780][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2021.01.05-06.05.35:818][ 58]LogPlayLevel: Display: Destroying online subsystem :Context_66
+[2021.01.05-06.06.50:405][986]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.05-06.06.50:431][986]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.05-06.06.50:431][986]PIE: New page: PIE session: Minimal_Default (6 Jan 2021, 4:06:50 am)
+[2021.01.05-06.06.50:431][986]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2021.01.05-06.06.50:436][986]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004274s)
+[2021.01.05-06.06.50:437][986]LogAIModule: Creating AISystem for world Minimal_Default
+[2021.01.05-06.06.50:437][986]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020A2EFF7800), frame # 781986
+[2021.01.05-06.06.50:437][986]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020AFB9542C0), frame # 781986
+[2021.01.05-06.06.50:437][986]LogPlayLevel: PIE: World Init took: (0.001222s)
+[2021.01.05-06.06.50:437][986]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.005622s)
+[2021.01.05-06.06.50:467][986]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2021.01.05-06.06.50:469][986]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.05-06.06.50:469][986]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.05-06.06.50:469][986]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.05-06.06.50:469][986]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.05-06.06.50:469][986]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.05-06.06.50:469][986]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.05-06.06.50:469][986]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.05-06.06.50:469][986]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.05-06.06.50:469][986]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.05-06.06.50:469][986]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.05-06.06.50:472][986]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.05-06.06.50:472][986]LogAudioMixer: Display: 1: FrontRight
+[2021.01.05-06.06.50:485][986]LogAudioMixer: Display: Using Audio Device Headphones (TH-N120 Stereo)
+[2021.01.05-06.06.50:486][986]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.05-06.06.50:486][986]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.05-06.06.50:486][986]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.05-06.06.50:486][986]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.05-06.06.50:500][986]LogInit: FAudioDevice initialized.
+[2021.01.05-06.06.50:551][986]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.05-06.06.50:551][986]LogLoad: Game class is 'MyGameMode_C'
+[2021.01.05-06.06.50:554][986]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2021.01.05-17.06.50
+[2021.01.05-06.06.50:554][986]LogWorld: Bringing up level for play took: 0.002658
+[2021.01.05-06.06.50:554][986]LogOnline: OSS: Creating online subsystem instance for: :Context_67
+[2021.01.05-06.06.50:556][986]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.01.05-06.06.50:559][986]PIE: Server logged in
+[2021.01.05-06.06.50:560][986]PIE: Play in editor total start time 0.129 seconds.
+[2021.01.05-06.06.51:598][ 16]LogBlueprintUserMessages: [Player_2] H
+[2021.01.05-06.06.51:698][ 19]LogBlueprintUserMessages: [Player_2] O
+[2021.01.05-06.06.51:731][ 20]LogBlueprintUserMessages: [Player_2] Q
+[2021.01.05-06.06.51:764][ 21]LogBlueprintUserMessages: [Player_2] W
+[2021.01.05-06.06.51:798][ 22]LogBlueprintUserMessages: [Player_2] I
+[2021.01.05-06.06.51:864][ 24]LogBlueprintUserMessages: [Player_2] H
+[2021.01.05-06.06.51:964][ 27]LogBlueprintUserMessages: [Player_2] G
+[2021.01.05-06.06.52:031][ 29]LogBlueprintUserMessages: [Player_2] E
+[2021.01.05-06.06.52:064][ 30]LogBlueprintUserMessages: [Player_2] W
+[2021.01.05-06.06.52:231][ 35]LogBlueprintUserMessages: [Player_2] G
+[2021.01.05-06.06.52:265][ 36]LogBlueprintUserMessages: [Player_2] W
+[2021.01.05-06.06.52:298][ 37]LogBlueprintUserMessages: [Player_2] P
+[2021.01.05-06.06.52:465][ 42]LogBlueprintUserMessages: [Player_2] N
+[2021.01.05-06.06.52:765][ 51]LogBlueprintUserMessages: [Player_2] Space Bar
+[2021.01.05-06.06.54:432][101]LogBlueprintUserMessages: [Player_2] Space Bar
+[2021.01.05-06.06.54:893][114]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.05-06.06.54:893][114]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2021.01.05-06.06.54:894][114]LogSlate: Window 'presentation Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.01.05-06.06.54:907][114]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2021.01.05-06.06.54:908][114]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.05-06.06.54:921][114]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.05-06.06.54:926][114]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.05-06.06.54:977][114]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020AFB9542C0), frame # 782114
+[2021.01.05-06.06.54:977][114]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020A2EFF7800), frame # 782114
+[2021.01.05-06.06.54:981][114]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2021.01.05-06.06.55:010][115]LogPlayLevel: Display: Destroying online subsystem :Context_67
+[2021.01.05-06.07.23:542][415]BlueprintLog: New page: Compile Player
+[2021.01.05-06.07.23:612][415]LogUObjectHash: Compacting FUObjectHashTables data took   3.05ms
+[2021.01.05-06.07.40:514][348]LogUObjectHash: Compacting FUObjectHashTables data took   3.40ms
+[2021.01.05-06.07.40:568][348]LogSavePackage: Moving '../../../../../../Users/uknab/Documents/GitHub/ue_presentation/presentation/Saved/Minimal_Default46362BB5441F507E9910E2B638177378.tmp' to '../../../../../../Users/uknab/Documents/GitHub/ue_presentation/presentation/Content/StarterContent/Maps/Minimal_Default.umap'
+[2021.01.05-06.07.40:763][348]LogSavePackage: Moving '../../../../../../Users/uknab/Documents/GitHub/ue_presentation/presentation/Saved/Minimal_Default_BuiltDataBBC81ACC4E0352BAA9AC37A303334217.tmp' to '../../../../../../Users/uknab/Documents/GitHub/ue_presentation/presentation/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2021.01.05-06.07.40:815][348]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.05-06.07.40:815][348]LogContentValidation: Display: Validating World /Game/StarterContent/Maps/Minimal_Default.Minimal_Default
+[2021.01.05-06.07.40:815][348]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData
+[2021.01.05-06.07.45:564][550]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.05-06.07.45:589][550]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.05-06.07.45:589][550]PIE: New page: PIE session: Minimal_Default (6 Jan 2021, 4:07:45 am)
+[2021.01.05-06.07.45:589][550]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2021.01.05-06.07.45:594][550]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005011s)
+[2021.01.05-06.07.45:595][550]LogAIModule: Creating AISystem for world Minimal_Default
+[2021.01.05-06.07.45:596][550]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000209ACBD5200), frame # 784550
+[2021.01.05-06.07.45:596][550]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000209185D9300), frame # 784550
+[2021.01.05-06.07.45:596][550]LogPlayLevel: PIE: World Init took: (0.001403s)
+[2021.01.05-06.07.45:596][550]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.006549s)
+[2021.01.05-06.07.45:630][550]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2021.01.05-06.07.45:635][550]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.05-06.07.45:635][550]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.05-06.07.45:635][550]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.05-06.07.45:635][550]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.05-06.07.45:635][550]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.05-06.07.45:635][550]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.05-06.07.45:635][550]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.05-06.07.45:635][550]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.05-06.07.45:636][550]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.05-06.07.45:636][550]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.05-06.07.45:638][550]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.05-06.07.45:638][550]LogAudioMixer: Display: 1: FrontRight
+[2021.01.05-06.07.45:651][550]LogAudioMixer: Display: Using Audio Device Headphones (TH-N120 Stereo)
+[2021.01.05-06.07.45:652][550]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.05-06.07.45:652][550]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.05-06.07.45:652][550]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.05-06.07.45:653][550]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.05-06.07.45:666][550]LogInit: FAudioDevice initialized.
+[2021.01.05-06.07.45:718][550]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.05-06.07.45:718][550]LogLoad: Game class is 'MyGameMode_C'
+[2021.01.05-06.07.45:721][550]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2021.01.05-17.07.45
+[2021.01.05-06.07.45:721][550]LogWorld: Bringing up level for play took: 0.002548
+[2021.01.05-06.07.45:722][550]LogOnline: OSS: Creating online subsystem instance for: :Context_68
+[2021.01.05-06.07.45:724][550]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.01.05-06.07.45:726][550]PIE: Server logged in
+[2021.01.05-06.07.45:728][550]PIE: Play in editor total start time 0.14 seconds.
+[2021.01.05-06.07.49:874][672]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.05-06.07.49:874][672]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2021.01.05-06.07.49:874][672]LogSlate: Window 'presentation Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.01.05-06.07.49:880][672]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2021.01.05-06.07.49:880][672]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.05-06.07.49:888][672]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.05-06.07.49:894][672]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.05-06.07.49:944][672]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000209185D9300), frame # 784672
+[2021.01.05-06.07.49:945][672]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000209ACBD5200), frame # 784672
+[2021.01.05-06.07.49:947][672]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2021.01.05-06.07.49:976][673]LogPlayLevel: Display: Destroying online subsystem :Context_68
+[2021.01.05-06.08.06:707][128]MapCheck: New page: Map Check
+[2021.01.05-06.08.06:812][128]Cmd: MAP REBUILD ALLVISIBLE
+[2021.01.05-06.08.06:812][128]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2021.01.05-06.08.06:976][128]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=false
+[2021.01.05-06.08.07:092][128]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2021.01.05-06.08.07:092][128]LogNavigationDataBuild: Display:    Building navigation data using PHYSICS_INTERFACE_PHYSX.
+[2021.01.05-06.08.07:092][128]LogNavigationDataBuild: Display:    Building navigation data using WITH_PHYSX.
+[2021.01.05-06.08.07:192][128]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2021.01.05-06.08.07:204][128]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.01.05-06.08.07:226][128]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.01.05-06.08.07:228][128]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.01.05-06.08.07:229][128]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.01.05-06.08.07:232][128]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. Is special engine material.
+[2021.01.05-06.08.07:270][128]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 8
+[2021.01.05-06.08.07:270][128]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 7
+[2021.01.05-06.08.07:270][128]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 6
+[2021.01.05-06.08.07:270][128]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2021.01.05-06.08.07:270][128]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.01.05-06.08.07:272][128]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.01.05-06.08.07:274][128]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.01.05-06.08.07:276][128]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.01.05-06.08.07:277][128]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.01.05-06.08.07:279][128]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.01.05-06.08.07:280][128]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.01.05-06.08.12:932][128]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 68
+[2021.01.05-06.08.12:932][128]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 67
+[2021.01.05-06.08.12:932][128]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 66
+[2021.01.05-06.08.12:932][128]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 65
+[2021.01.05-06.08.12:932][128]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 64
+[2021.01.05-06.08.12:932][128]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 63
+[2021.01.05-06.08.12:932][128]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 62
+[2021.01.05-06.08.12:932][128]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 61
+[2021.01.05-06.08.12:932][128]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 60
+[2021.01.05-06.08.12:932][128]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 59
+[2021.01.05-06.08.12:932][128]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 58
+[2021.01.05-06.08.12:932][128]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 57
+[2021.01.05-06.08.12:932][128]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 56
+[2021.01.05-06.08.12:932][128]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 55
+[2021.01.05-06.08.12:932][128]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 54
+[2021.01.05-06.08.12:932][128]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 53
+[2021.01.05-06.08.12:932][128]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 52
+[2021.01.05-06.08.12:932][128]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 51
+[2021.01.05-06.08.12:932][128]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 50
+[2021.01.05-06.08.12:932][128]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 49
+[2021.01.05-06.08.12:932][128]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 48
+[2021.01.05-06.08.12:932][128]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 47
+[2021.01.05-06.08.12:932][128]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 46
+[2021.01.05-06.08.12:932][128]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 45
+[2021.01.05-06.08.12:932][128]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 44
+[2021.01.05-06.08.12:932][128]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 43
+[2021.01.05-06.08.12:932][128]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 42
+[2021.01.05-06.08.12:932][128]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 41
+[2021.01.05-06.08.12:932][128]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 40
+[2021.01.05-06.08.12:932][128]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 39
+[2021.01.05-06.08.12:932][128]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 38
+[2021.01.05-06.08.12:932][128]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 37
+[2021.01.05-06.08.12:932][128]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 36
+[2021.01.05-06.08.12:932][128]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 35
+[2021.01.05-06.08.12:932][128]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 34
+[2021.01.05-06.08.12:932][128]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 33
+[2021.01.05-06.08.12:932][128]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 32
+[2021.01.05-06.08.12:932][128]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 31
+[2021.01.05-06.08.12:932][128]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 30
+[2021.01.05-06.08.12:932][128]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 29
+[2021.01.05-06.08.12:932][128]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 28
+[2021.01.05-06.08.12:932][128]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 27
+[2021.01.05-06.08.12:932][128]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 26
+[2021.01.05-06.08.12:932][128]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 25
+[2021.01.05-06.08.12:932][128]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 24
+[2021.01.05-06.08.12:932][128]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 23
+[2021.01.05-06.08.12:932][128]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 22
+[2021.01.05-06.08.12:932][128]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 21
+[2021.01.05-06.08.12:932][128]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 20
+[2021.01.05-06.08.12:932][128]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 19
+[2021.01.05-06.08.12:932][128]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 18
+[2021.01.05-06.08.12:933][128]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 17
+[2021.01.05-06.08.12:933][128]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 16
+[2021.01.05-06.08.12:933][128]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 15
+[2021.01.05-06.08.12:933][128]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 14
+[2021.01.05-06.08.12:933][128]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 13
+[2021.01.05-06.08.12:933][128]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 12
+[2021.01.05-06.08.12:933][128]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2021.01.05-06.08.12:933][128]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2021.01.05-06.08.12:933][128]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 9
+[2021.01.05-06.08.12:933][128]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+[2021.01.05-06.08.12:933][128]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 7
+[2021.01.05-06.08.12:933][128]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 6
+[2021.01.05-06.08.12:933][128]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2021.01.05-06.08.12:933][128]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4
+[2021.01.05-06.08.12:933][128]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 3
+[2021.01.05-06.08.12:933][128]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2021.01.05-06.08.12:933][128]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2021.01.05-06.08.12:933][128]TextureStreamingBuild: Display: Compiling optional shaders took 5.738 seconds.
+[2021.01.05-06.08.12:969][128]LogLevel: Display: Export Material TexCoord Scales took 0.036 seconds.
+[2021.01.05-06.08.12:974][128]TextureStreamingBuild: Display: Build Texture Streaming took 0.006 seconds.
+[2021.01.05-06.08.13:001][128]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2021.01.05-06.08.13:023][128]LightingResults: New page: Lighting Build - 6 Jan 2021, 4:08:13 am
+[2021.01.05-06.08.13:091][128]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2021.01.05-06.08.13:209][128]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2021.01.05-06.08.13:233][128]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2021.01.05-06.08.14:257][128]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2021.01.05-06.08.14:257][128]LogSwarmInterface: [TryOpenConnection] Local Process ID is 1004
+[2021.01.05-06.08.16:797][128]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2021.01.05-06.08.16:798][128]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2021.01.05-06.08.16:798][128]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2021.01.05-06.08.16:798][128]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2021.01.05-06.08.16:798][128]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2021.01.05-06.08.16:798][128]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2021.01.05-06.08.17:150][128]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2021.01.05-06.08.17:150][128]MapCheck: New page: Minimal_Default - 6 Jan 2021, 4:08:17 am
+[2021.01.05-06.08.17:150][128]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
+[2021.01.05-06.08.17:152][128]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 2.088ms to complete.
+[2021.01.05-06.08.17:154][128]LogEditorBuildUtils: Build time 0:10
+[2021.01.05-06.08.17:754][128]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_0, compiling. 
+[2021.01.05-06.08.17:762][128]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_0, compiling. 
+[2021.01.05-06.08.17:857][128]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4
+[2021.01.05-06.08.17:857][128]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2021.01.05-06.08.17:902][129]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer floor1, compiling. 
+[2021.01.05-06.08.17:907][129]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2021.01.05-06.08.17:907][129]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2021.01.05-06.08.17:907][129]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer floor1, compiling. 
+[2021.01.05-06.08.17:912][129]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer BricksPaintedWhite001_2K, compiling. 
+[2021.01.05-06.08.17:916][129]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer BricksPaintedWhite001_2K, compiling. 
+[2021.01.05-06.08.18:019][130]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer glass-door-inset, compiling. 
+[2021.01.05-06.08.18:024][130]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer glass-door-inset, compiling. 
+[2021.01.05-06.08.18:035][130]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2021.01.05-06.08.18:044][130]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2021.01.05-06.08.18:063][131]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Window_outside, compiling. 
+[2021.01.05-06.08.18:068][131]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Window_outside, compiling. 
+[2021.01.05-06.08.18:113][132]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Window_inside, compiling. 
+[2021.01.05-06.08.18:118][132]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Window_inside, compiling. 
+[2021.01.05-06.08.18:182][133]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Glass_001, compiling. 
+[2021.01.05-06.08.18:190][133]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Glass_001, compiling. 
+[2021.01.05-06.08.18:247][134]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer glass-door-handle, compiling. 
+[2021.01.05-06.08.18:251][134]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer glass-door-handle, compiling. 
+[2021.01.05-06.08.18:255][134]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Glass_material, compiling. 
+[2021.01.05-06.08.18:260][134]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Glass_material, compiling. 
+[2021.01.05-06.08.21:848][136]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 34
+[2021.01.05-06.08.21:848][136]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 25
+[2021.01.05-06.08.21:848][136]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 18
+[2021.01.05-06.08.21:848][136]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 13
+[2021.01.05-06.08.21:848][136]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 9
+[2021.01.05-06.08.21:848][136]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 6
+[2021.01.05-06.08.21:848][136]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 4
+[2021.01.05-06.08.21:848][136]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2021.01.05-06.08.21:848][136]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2021.01.05-06.08.23:181][152]LogUObjectHash: Compacting FUObjectHashTables data took   4.18ms
+[2021.01.05-06.08.24:817][165]LightingResults: Warning: table_big Object has overlapping UVs.
+[2021.01.05-06.08.24:817][165]LightingResults: table_big Lightmap UV are overlapping by 3.9%. Please adjust content - Enable Error Coloring to visualize.
+[2021.01.05-06.08.24:870][166]LightingResults: Warning: Window_313c Object has wrapping UVs.
+[2021.01.05-06.08.24:870][166]LightingResults: Warning: Window_Panel_009 Object has wrapping UVs.
+[2021.01.05-06.08.24:870][166]LightingResults: Warning: Window_313b Object has wrapping UVs.
+[2021.01.05-06.08.24:924][167]LightingResults: Warning: wall Object has overlapping UVs.
+[2021.01.05-06.08.24:924][167]LightingResults: wall Lightmap UV are overlapping by 68.8%. Please adjust content - Enable Error Coloring to visualize.
+[2021.01.05-06.08.24:924][167]LightingResults: Warning: tables Object has overlapping UVs.
+[2021.01.05-06.08.24:924][167]LightingResults: tables Lightmap UV are overlapping by 94.4%. Please adjust content - Enable Error Coloring to visualize.
+[2021.01.05-06.08.24:968][168]LightingResults: Warning: Window_Panel_011 Object has wrapping UVs.
+[2021.01.05-06.08.24:968][168]LightingResults: Warning: Window_Panel_018 Object has wrapping UVs.
+[2021.01.05-06.08.24:968][168]LightingResults: Warning: Panel Object has wrapping UVs.
+[2021.01.05-06.08.25:022][169]LightingResults: Warning: GlassDoor Object has wrapping UVs.
+[2021.01.05-06.08.25:022][169]LightingResults: Warning: Window_Panel_017 Object has wrapping UVs.
+[2021.01.05-06.08.25:022][169]LightingResults: Warning: door_plate_head_frame Object has overlapping UVs.
+[2021.01.05-06.08.25:022][169]LightingResults: door_plate_head_frame Lightmap UV are overlapping by 74.0%. Please adjust content - Enable Error Coloring to visualize.
+[2021.01.05-06.08.25:066][170]LightingResults: Warning: door_plate_glass Object has overlapping UVs.
+[2021.01.05-06.08.25:066][170]LightingResults: door_plate_glass Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2021.01.05-06.08.25:066][170]LightingResults: Warning: Window_Panel_012 Object has wrapping UVs.
+[2021.01.05-06.08.25:120][171]LightingResults: Warning: door_plate_frame Object has overlapping UVs.
+[2021.01.05-06.08.25:120][171]LightingResults: door_plate_frame Lightmap UV are overlapping by 74.6%. Please adjust content - Enable Error Coloring to visualize.
+[2021.01.05-06.08.25:120][171]LightingResults: Warning: Window_Panel_016 Object has wrapping UVs.
+[2021.01.05-06.08.25:174][172]LightingResults: Warning: Window_313a Object has wrapping UVs.
+[2021.01.05-06.08.25:218][173]LightingResults: Warning: Window_Panel_008 Object has wrapping UVs.
+[2021.01.05-06.08.25:272][174]LightingResults: Warning: Window_Panel_010 Object has wrapping UVs.
+[2021.01.05-06.08.25:272][174]LightingResults: Warning: Window_Panel_007 Object has wrapping UVs.
+[2021.01.05-06.08.25:334][176]Job is a success!
+[2021.01.05-06.08.25:731][177]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.009s
+[2021.01.05-06.08.25:731][177]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2021.01.05-06.08.25:732][177]LogVolumetricLightmapImport:      BrickData (all levels) 0.0Mb (trimmed 0.0Mb due to 0.010000 MinBrickError)
+[2021.01.05-06.08.25:732][177]LogVolumetricLightmapImport:      Bricks at depth
+[2021.01.05-06.08.25:732][177]LogVolumetricLightmapImport:          0: 11.1% covering 100.0% of volume
+[2021.01.05-06.08.25:732][177]LogVolumetricLightmapImport:          1: 11.1% covering 1.6% of volume
+[2021.01.05-06.08.25:732][177]LogVolumetricLightmapImport:          2: 77.8% covering 0.2% of volume
+[2021.01.05-06.08.25:732][177]LogVolumetricLightmapImport:      Bricks in each level
+[2021.01.05-06.08.25:732][177]LogVolumetricLightmapImport:          Minimal_Default 			 9 bricks 	 100.0% (Persistent Level)
+[2021.01.05-06.08.25:829][177]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 512X512)
+[2021.01.05-06.08.25:829][177]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 512X512)
+[2021.01.05-06.08.25:829][177]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2021.01.05-06.08.25:829][177]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2021.01.05-06.08.25:956][177]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2021.01.05-06.08.25:956][177]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X128)
+[2021.01.05-06.08.25:956][177]Lightmass on LAPTOP-11VB1TVB: 1.57 sec total, 153 ms importing, 22 ms setup, 127 ms photons, 1.21 sec processing, 0 ms extra exporting [25/25 mappings]. Threads: 8.46 sec total, 2.51 sec processing.
+[2021.01.05-06.08.25:957][177]LogStaticLightingSystem: Minimal_Default_BuiltData storing lightmap data for 25 meshes in 3 LightmapResourceClusters (8.3 Meshes per cluster).
+[2021.01.05-06.08.25:958][177]LogMaterial: Display: Material /Game/untitled_category/untitled_asset/glass-door-inset.glass-door-inset needed to have new flag set bUsedWithStaticLighting !
+[2021.01.05-06.08.25:960][177]LogMaterial: Display: Missing cached shader map for material glass-door-inset, compiling. 
+[2021.01.05-06.08.26:034][177]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 24
+[2021.01.05-06.08.26:034][177]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 17
+[2021.01.05-06.08.26:034][177]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2021.01.05-06.08.26:034][177]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2021.01.05-06.08.26:035][177]LogMaterial: Display: Material /Game/untitled_category/untitled_asset/Glass_001.Glass_001 needed to have new flag set bUsedWithStaticLighting !
+[2021.01.05-06.08.26:036][177]LogMaterial: Display: Missing cached shader map for material Glass_001, compiling. 
+[2021.01.05-06.08.26:064][177]LogMaterial: Display: Material /Game/untitled_category/untitled_asset/floor1.floor1 needed to have new flag set bUsedWithStaticLighting !
+[2021.01.05-06.08.26:065][177]LogMaterial: Display: Missing cached shader map for material floor1, compiling. 
+[2021.01.05-06.08.26:092][177]LogMaterial: Display: Material /Game/untitled_category/untitled_asset/glass-door-handle.glass-door-handle needed to have new flag set bUsedWithStaticLighting !
+[2021.01.05-06.08.26:094][177]LogMaterial: Display: Missing cached shader map for material glass-door-handle, compiling. 
+[2021.01.05-06.08.26:126][177]LogMaterial: Display: Material /Game/untitled_category/untitled_asset/Glass_material.Glass_material needed to have new flag set bUsedWithStaticLighting !
+[2021.01.05-06.08.26:128][177]LogMaterial: Display: Missing cached shader map for material Glass_material, compiling. 
+[2021.01.05-06.08.26:167][177]LogMaterial: Display: Material /Game/untitled_category/untitled_asset/BricksPaintedWhite001_2K.BricksPaintedWhite001_2K needed to have new flag set bUsedWithStaticLighting !
+[2021.01.05-06.08.26:169][177]LogMaterial: Display: Missing cached shader map for material BricksPaintedWhite001_2K, compiling. 
+[2021.01.05-06.08.26:205][177]LogMaterial: Display: Material /Game/untitled_category/untitled_asset/Window_outside.Window_outside needed to have new flag set bUsedWithStaticLighting !
+[2021.01.05-06.08.26:207][177]LogMaterial: Display: Missing cached shader map for material Window_outside, compiling. 
+[2021.01.05-06.08.26:241][177]LogMaterial: Display: Material /Game/untitled_category/untitled_asset/Window_inside.Window_inside needed to have new flag set bUsedWithStaticLighting !
+[2021.01.05-06.08.26:243][177]LogMaterial: Display: Missing cached shader map for material Window_inside, compiling. 
+[2021.01.05-06.08.26:409][177]LogUObjectHash: Compacting FUObjectHashTables data took   5.04ms
+[2021.01.05-06.08.26:576][177]LogStaticLightingSystem: Illumination: 13.3 sec (130 ms encoding lightmaps, 38 ms encoding shadowmaps)
+[2021.01.05-06.08.26:576][177]LogStaticLightingSystem: Lightmap texture memory:  0.5 MB (0.5 MB streaming, 0.0 MB non-streaming), 4 textures
+[2021.01.05-06.08.26:576][177]LogStaticLightingSystem: Shadowmap texture memory: 0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 2 textures
+[2021.01.05-06.08.31:807][177]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 168
+[2021.01.05-06.08.31:807][177]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 158
+[2021.01.05-06.08.31:807][177]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 148
+[2021.01.05-06.08.31:807][177]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 138
+[2021.01.05-06.08.31:808][177]DumpUnbuiltLightIteractions
+[2021.01.05-06.08.31:808][177]Lights with unbuilt interactions: 0
+[2021.01.05-06.08.31:808][177]
+[2021.01.05-06.08.31:808][177]Primitives with unbuilt interactions: 0
+[2021.01.05-06.08.46:322][177]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 128
+[2021.01.05-06.08.46:322][177]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 118
+[2021.01.05-06.08.46:322][177]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 108
+[2021.01.05-06.08.46:322][177]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 98
+[2021.01.05-06.08.46:322][177]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 88
+[2021.01.05-06.08.46:322][177]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 78
+[2021.01.05-06.08.46:322][177]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 68
+[2021.01.05-06.08.46:322][177]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 58
+[2021.01.05-06.08.46:322][177]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 48
+[2021.01.05-06.08.46:322][177]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 38
+[2021.01.05-06.08.46:322][177]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 28
+[2021.01.05-06.08.46:322][177]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 20
+[2021.01.05-06.08.46:322][177]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 14
+[2021.01.05-06.08.46:322][177]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 10
+[2021.01.05-06.08.46:322][177]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2021.01.05-06.08.46:322][177]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 5
+[2021.01.05-06.08.46:322][177]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 3
+[2021.01.05-06.08.46:322][177]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2021.01.05-06.08.46:322][177]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+[2021.01.05-06.08.46:825][178]Cmd: MAP CHECK NOTIFYRESULTS
+[2021.01.05-06.08.46:825][178]MapCheck: New page: Minimal_Default - 6 Jan 2021, 4:08:46 am
+[2021.01.05-06.08.46:826][178]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.509ms to complete.
+[2021.01.05-06.09.03:828][669]LogSlate: Window 'Message Log' being destroyed
+[2021.01.05-06.09.03:870][669]LogSlate: Window 'Message Log' being destroyed
+[2021.01.05-06.09.09:917][803]MapCheck: New page: Map Check
+[2021.01.05-06.09.09:944][803]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2021.01.05-06.09.09:944][803]LogNavigationDataBuild: Display:    Building navigation data using PHYSICS_INTERFACE_PHYSX.
+[2021.01.05-06.09.09:944][803]LogNavigationDataBuild: Display:    Building navigation data using WITH_PHYSX.
+[2021.01.05-06.09.09:944][803]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2021.01.05-06.09.09:944][803]MapCheck: New page: Minimal_Default - 6 Jan 2021, 4:09:09 am
+[2021.01.05-06.09.09:959][803]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 15.32ms to complete.
+[2021.01.05-06.09.09:962][803]LogEditorBuildUtils: Build time 0:00
+[2021.01.05-06.09.23:901][204]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.05-06.09.23:926][204]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.05-06.09.23:927][204]PIE: New page: PIE session: Minimal_Default (6 Jan 2021, 4:09:23 am)
+[2021.01.05-06.09.23:927][204]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2021.01.05-06.09.23:931][204]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004081s)
+[2021.01.05-06.09.23:932][204]LogAIModule: Creating AISystem for world Minimal_Default
+[2021.01.05-06.09.23:932][204]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002099F83C800), frame # 786204
+[2021.01.05-06.09.23:932][204]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002099F838540), frame # 786204
+[2021.01.05-06.09.23:932][204]LogPlayLevel: PIE: World Init took: (0.001108s)
+[2021.01.05-06.09.23:932][204]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.005300s)
+[2021.01.05-06.09.23:965][204]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2021.01.05-06.09.23:968][204]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.05-06.09.23:968][204]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.05-06.09.23:969][204]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.05-06.09.23:969][204]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.05-06.09.23:969][204]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.05-06.09.23:969][204]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.05-06.09.23:969][204]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.05-06.09.23:969][204]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.05-06.09.23:969][204]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.05-06.09.23:969][204]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.05-06.09.23:972][204]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.05-06.09.23:972][204]LogAudioMixer: Display: 1: FrontRight
+[2021.01.05-06.09.23:988][204]LogAudioMixer: Display: Using Audio Device Headphones (TH-N120 Stereo)
+[2021.01.05-06.09.23:989][204]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.05-06.09.23:989][204]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.05-06.09.23:989][204]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.05-06.09.23:989][204]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.05-06.09.24:005][204]LogInit: FAudioDevice initialized.
+[2021.01.05-06.09.24:072][204]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.05-06.09.24:072][204]LogLoad: Game class is 'MyGameMode_C'
+[2021.01.05-06.09.24:076][204]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2021.01.05-17.09.24
+[2021.01.05-06.09.24:076][204]LogWorld: Bringing up level for play took: 0.003109
+[2021.01.05-06.09.24:077][204]LogOnline: OSS: Creating online subsystem instance for: :Context_69
+[2021.01.05-06.09.24:078][204]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.01.05-06.09.24:082][204]PIE: Server logged in
+[2021.01.05-06.09.24:083][204]PIE: Play in editor total start time 0.157 seconds.
+[2021.01.05-06.09.30:903][406]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.05-06.09.30:903][406]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2021.01.05-06.09.30:904][406]LogSlate: Window 'presentation Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.01.05-06.09.30:913][406]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2021.01.05-06.09.30:913][406]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.05-06.09.30:926][406]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.05-06.09.30:932][406]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.05-06.09.30:984][406]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002099F838540), frame # 786406
+[2021.01.05-06.09.30:984][406]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002099F83C800), frame # 786406
+[2021.01.05-06.09.30:987][406]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2021.01.05-06.09.31:016][407]LogPlayLevel: Display: Destroying online subsystem :Context_69
+[2021.01.05-06.10.12:522][461]SourceControl: Source control is disabled
+[2021.01.05-06.10.12:522][461]LogSlate: Window 'Source Control Login' being destroyed
